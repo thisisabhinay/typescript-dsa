@@ -1,10 +1,6 @@
 import { SinglyLinkedList } from "./linked-list/singly-linked-list"
 import { FullBinaryTree, BinaryTreeNode } from "./tree/binary-tree/full-binary-tree"
-
-enum DS {
-	SINGLY_LINKED_LIST = "singly-linked-list",
-	FULL_BIINARY_TREE = "full-binary-tree"
-}
+import { DS } from "./enum"
 
 const tryDS = {
 	[DS.SINGLY_LINKED_LIST]:  function() {
